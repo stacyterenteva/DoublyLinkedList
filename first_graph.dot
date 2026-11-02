@@ -1,0 +1,11 @@
+digraph {
+    node1 [shape=Mrecord, style=filled, fillcolor="#9ce4ad", color="#035603", label="{next = 900 | prev = 1100 | data = 3500}"];
+    node2 [shape=Mrecord, style=filled, fillcolor="#d44f43", color="#740f0f", label="{next = 900 | prev = 1100 | data = 3500}"];
+    node3 [shape=Mrecord, style=filled, fillcolor="#9ce4ad", color="#035603", label="{next = 900 | prev = 1100 | data = 3500}"];
+    node4 [shape=Mrecord, style=filled, fillcolor="#d44f43", color="#740f0f", label="{next = 900 | prev = 1100 | data = 3500}"];
+    node5 [shape=Mrecord, style=filled, fillcolor="#9ce4ad", color="#035603", label="{next = 900 | prev = 1100 | data = 3500}"];
+    node6 [shape=Mrecord, style=filled, fillcolor="#d44f43", color="#740f0f", label="{next = 900 | prev = 1100 | data = 3500}"];
+    node1 -> node2;
+    node3 -> node4;
+    node5-> node6;
+}
