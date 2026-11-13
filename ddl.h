@@ -8,7 +8,7 @@
 #include "cgraph.h"
 
 const int PZ = 2718;
-const int MIN_NUM_OF_ELEMENTS = 5;
+const int MIN_NUM_OF_ELEMENTS = 8;
 const int MAX_STRLEN = 100;
 
 #define RED "\033[031m"
@@ -21,7 +21,8 @@ enum ddl_errors_t
     DDL_ERROR_NEGATIVE_TAIL,
     DDL_ERROR_INF_LIST,
     DDL_ERROR_SUCCESS,
-    DDL_ERROR_PROBLEMS_WITH_FILE
+    DDL_ERROR_PROBLEMS_WITH_FILE,
+    DDL_ERROR_WRONG_LIST_PTR
 };
 
 struct ddl_t
